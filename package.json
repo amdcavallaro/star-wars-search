@@ -1,0 +1,36 @@
+{
+  "name": "star-wars-search",
+  "version": "0.1.0",
+  "private": true,
+  "homepage": "https://star-wars-character-search.netlify.com/",
+  "dependencies": {
+    "react": "^16.4.1",
+    "react-autocomplete": "^1.8.1",
+    "react-dom": "^16.4.1",
+    "react-meta-tags": "^0.4.1",
+    "react-scripts": "1.1.4"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject"
+  },
+  "description": "### Technologies used HTML, CSS, Javascript, React",
+  "main": "index.js",
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/amdcaruso/star-wars-search.git"
+  },
+  "keywords": [
+    "star",
+    "wars",
+    "react"
+  ],
+  "author": "Amanda Cavallaro",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/amdcaruso/star-wars-search/issues"
+  }
+}
