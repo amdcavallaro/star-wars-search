@@ -1,5 +1,5 @@
 import React from "react";
-import magnifier from "./magnifier.svg";
+import magnifier from "../img/magnifier.svg";
 export default class DisplayCharacter extends React.Component {
   constructor(props) {
     super(props);

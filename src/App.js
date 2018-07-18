@@ -1,7 +1,7 @@
 import React, { Component } from "react";
-import leia from "./leia.png";
-import "./App.css";
-import Search from "./Search.js";
+import leia from "./img/leia.png";
+import "./stylesheet/App.css";
+import Search from "./assets/Search.js";
 class App extends Component {
   render() {
     return (

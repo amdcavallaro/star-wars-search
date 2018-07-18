@@ -10,7 +10,9 @@ export default class ShowResults extends React.Component {
     ));
     return (
       <div>
-        <h5>Were you looking for any of the characters below?</h5>
+        {currentState === "" ? null : (
+          <h5>Were you looking for any of the characters below?</h5>
+        )}
         {currentState}
       </div>
     );

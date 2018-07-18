@@ -12,19 +12,19 @@ export default class Search extends React.Component {
   }
 
   handleChange(event) {
-    this.setState({ value: event.target.value }, this.fetchAPIData);
-    console.log(this.state.value);
     if (event.target.value === "") {
-      this.setState({ characters: [] }, this.fetchAPIData);
+      this.setState({ characters: [], value: "" });
       return;
     }
+      this.setState({ value: event.target.value }, this.fetchAPIData);
+      return;
   }
   fetchAPIData() {
     fetch(`https://swapi.co/api/people/?search=${this.state.value}`)
       .then(j => j.json())
       .then(data => {
         this.setState({ characters: data.results });
-      })
+      });
   }
   render() {
     return (
